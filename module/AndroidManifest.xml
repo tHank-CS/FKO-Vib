@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fko.vib"
+    android:versionCode="1"
+    android:versionName="1.0.0">
+
+    <application
+        android:label="FKO-Vib"
+        android:icon="@drawable/fkov"
+        android:hasCode="true">
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="ColorOS 振动模式保留通知铃声触觉联动" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="93" />
+        <meta-data
+            android:name="xposedscope"
+            android:value="android" />
+    </application>
+</manifest>

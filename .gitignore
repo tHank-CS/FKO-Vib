@@ -1,0 +1,7 @@
+build/
+dist/
+*.keystore
+*.jks
+*.apk
+keystore/
+.vs/
